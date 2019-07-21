@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo:700);
+@import url(https://fonts.googleapis.com/css?family=Seaweed+Script);
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+* {
+  box-sizing: border-box;
+}
+body,html{
+  height: 100%;
+  margin: 0;
+  font-family: Arial,Helvetica,sans-serif;
+}
+.bg-image{
+
+  background-image: url("BG.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  filter:blur(5px);
+}
+.header {
+  font-family: 'Merienda', cursive;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4);
+   position: absolute;
+   text-align: center;
+   top:5%;
+   font-size: 30px;
+  overflow: hidden;
+ border: 3px solid #f1f1f1;
+color: white;
+ font-weight: bold;
+ left: 30%;
+ right: 30%;
+}
+#container {
+
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 400px;
+  margin: auto;
+}
+form {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+label {
+  padding: 12px 12px 12px 0;
+   display: inline-block;
+
+}
+
+p a {
+  font-size: 11px;
+   color: #aaa;
+   float: right;
+   margin-top: -13px;
+   margin-right: 20px;
+   -webkit-transition: all .4s ease;
+   -moz-transition: all .4s ease;
+   transition: all .4s ease;
+}
+p a:hover {
+   color: #555;
+}
+input {
+   font-family: "Helvetica Neue", Helvetica, sans-serif;
+   font-size: 12px;
+   outline: none;
+}
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+}
+input[type=text]:hover,
+input[type=password]:hover {
+    border: 1px solid #b6bfc0;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .7), 0 0 0 5px #f5f7f8;
+}
+input[type=text]:focus,
+input[type=password]:focus {
+    border: 1px solid #a8c9e4;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #e6f2f9;
+}
+}
+#lower {
+    background: #ecf2f5;
+    width: 100%;
+    height: 69px;
+    margin-top: 20px;
+    float: center;
+}
+input[type=checkbox] {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.check {
+    margin-left: 3px;
+}
+input[type=submit] {
+    float: center;
+    margin-right: 100px;
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+   background-color: #45a049;
+
+    border-radius: 30px;
+    border: 1px solid #66add6;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+    cursor: pointer;
+}
